@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+.background {
+    width: 100%;
+    background: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.background .content-wrap {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background .content .title {
+    color: #e6e6e6;
+    font-size: 70px;
+    line-height: 65px;
+    font-weight: 600;
+    text-shadow: 0 0 10px black, 0 0 10px black;
+}
+
+.background .content .subtitle {
+    color: #363636;
+    font-size: 35px;
+    line-height: 30px;
+    font-weight: 500;
+    text-shadow: 0 0 10px white, 0 0 10px white;
+}
+
+.background .content a {
+    background-color: #9b9b9bbb;
+    font-weight: 700;
+    transition: all .5s;
+}
+
+.title-img {
+    height: 80px;
+}
+
+.back {
+    background-color: #e7e7e7;
+    background: url("../img/bod.png");
+    background-size: cover;
+    background-position: bottom left;
+}
+
+.land-album {
+    min-height: 100vh;
+    width: 100%;
+    padding: 30px;
+}
+
+.land-card {
+    height: 100%;
+    transition: all .5s;
+    box-shadow: 0 0 20px #000;
+    background: #f8fafc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.432);
+    border-radius: 0px 0px 6px 6px;
+}
+
+.land-card:hover {
+    background-color: #e9f4ff;
+    box-shadow: 0 5px 7px #000;
+
+}
+
+.land-card .desc {
+    padding: 20px;
+    text-align: center;
+    color: #1b1b1b;
+
+}
+
+
+.btn-land {
+    margin-top: 20px;
+    font-weight: 700;
+    box-shadow: 0 0 4px #666;
+    color: #666;
+    transition: all .5s;
+    background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color: #dfdfdf;
+
+}
+
+.btn-land:hover {
+    color: #000;
+    box-shadow: 0 0 4px black;
+}
+
+.second-title-img {
+    width: 100%;
+}
+
+.titlebar {
+    width: 100%;
+    text-align: center;
+}
+
+.titlebar .title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #1b1b1b;
+    text-transform: uppercase;
+}
+
+.desc-wrap .item {
+    margin-bottom: 20px;
+}
+
+.desc-wrap .ele {
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.desc-wrap{
+    background-color: #e2e2e2d7;
+    height: 100%;
+    padding: 20px;
+}
+
+.item.title{
+    font-size: 40px;
+    font-weight: 600;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.item{
+    color: #000;
+}
+
+body#p1{
+    background: linear-gradient(#000000,#000b, #5e5e5e34), url('../img/1.jpg');
+    background-size: cover;
+    background-attachment: fixed ;
+}
+body#p2{
+    background: linear-gradient(#000000,#000b, #5e5e5e34), url('../img/2.jpg');
+    background-size: cover;
+    background-attachment: fixed ;
+}
+body#p3{
+    background: linear-gradient(#000000,#000b, #5e5e5e34), url('../img/3.jpg');
+    background-size: cover;
+    background-attachment: fixed ;
+}
+body#p4{
+    background: linear-gradient(#000000,#000b, #5e5e5e34), url('../img/4.jpg');
+    background-size: cover;
+    background-attachment: fixed ;
+}
+body#p5{
+    background: linear-gradient(#000000,#000b, #5e5e5e34), url('../img/5.jpg');
+    background-size: cover;
+    background-attachment: fixed ;
+}
